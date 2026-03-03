@@ -1,0 +1,68 @@
+{
+  "name": "orchestrate",
+  "slug": "orchestrate",
+  "verify_jwt": true,
+  "entrypoint_path": "index.ts",
+  "files": [
+    {
+      "name": "index.ts",
+      "path": "supabase/functions/orchestrate/index.ts"
+    },
+    {
+      "name": "policy.ts",
+      "path": "supabase/functions/orchestrate/policy.ts"
+    },
+    {
+      "name": "types.ts",
+      "path": "supabase/functions/orchestrate/types.ts"
+    },
+    {
+      "name": "prompt-registry.ts",
+      "path": "supabase/functions/orchestrate/prompt-registry.ts"
+    },
+    {
+      "name": "enforcement.ts",
+      "path": "supabase/functions/orchestrate/enforcement.ts"
+    },
+    {
+      "name": "prompt-assembly.ts",
+      "path": "supabase/functions/orchestrate/prompt-assembly.ts"
+    },
+    {
+      "name": "canon-retrieval.ts",
+      "path": "supabase/functions/orchestrate/canon-retrieval.ts"
+    },
+    {
+      "name": "canon-types.ts",
+      "path": "supabase/functions/orchestrate/canon-types.ts"
+    },
+    {
+      "name": "llm-adapter.ts",
+      "path": "supabase/functions/orchestrate/llm-adapter.ts"
+    },
+    {
+      "name": "llm-types.ts",
+      "path": "supabase/functions/orchestrate/llm-types.ts"
+    },
+    {
+      "name": "llm-config.ts",
+      "path": "supabase/functions/orchestrate/llm-config.ts"
+    },
+    {
+      "name": "llm-guards.ts",
+      "path": "supabase/functions/orchestrate/llm-guards.ts"
+    },
+    {
+      "name": "llm-openai.ts",
+      "path": "supabase/functions/orchestrate/llm-openai.ts"
+    },
+    {
+      "name": "llm-anthropic.ts",
+      "path": "supabase/functions/orchestrate/llm-anthropic.ts"
+    },
+    {
+      "name": "mock-llm.ts",
+      "path": "supabase/functions/orchestrate/mock-llm.ts"
+    }
+  ]
+}
